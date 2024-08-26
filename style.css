@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav start  */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(182, 181, 181);
+    padding: 20px 10px;
+}
+.nav-logo{
+    display: flex;
+    color: aqua;
+    align-items: center;
+}
+.items, .items>li , .items>li>a{
+    display: flex;
+    list-style: none;
+    margin-right: 20px ;
+    text-decoration: none;
+    color: white;
+}
+/* nav end  */
+/* nav banner start  */
