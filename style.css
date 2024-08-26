@@ -155,3 +155,49 @@
 b {
   font-size: 30px;
 }
+/* blog-container start  */
+.blog-container{
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+.blog-info{
+  text-align: center;
+  width: 350px;
+  margin: auto;
+  margin-top: 100px;
+}
+.blog-info-title{
+  font-size: 33px;
+}
+.blog-info-text{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+.card{
+  width: 250px;
+  height: 320px;
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 10px; 
+}
+.card-img{
+  width: 100%;
+  border-radius: 10px;
+}
+.card-info{
+  padding: 10px;
+}
+.card-title{
+  font-size: 18px;
+}
+.card-text{
+  margin: 10px 0px;
+}
+/* footer start  */
+
