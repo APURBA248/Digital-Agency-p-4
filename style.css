@@ -25,3 +25,39 @@
 }
 /* nav end  */
 /* nav banner start  */
+.nav-banner-container{
+    color: white;
+    background-image: url('./image/background.jpg'),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9));
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.nav-banner-title{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+}
+.primary{
+    color: orangered;   
+}
+.nav-banner-text{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.bg-primary{
+    background-color: orangered;
+    color: white;
+}
+/* nav banner end  */
